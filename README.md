@@ -19,10 +19,12 @@ Tips and cheatsheet for productive mutt use.
    * `i` back to list from a message
    
 ### Filtering display
-`l` enable display filter
+`l` enables a display filter. From there, use an expression to filter the list.
 
-   * asdf
-   * asdf
+   * `~s <subject expression>` by subject expression
+   * `~N` NEW flag only
+   * `~f <from>` from expression
+   * `~d <date expression>` by date
 
 ### Actions
    * `T` tag with last filter
